@@ -300,3 +300,213 @@ class Countries {
     {"name": "Zimbabwe", "dial_code": "+263", "code": "ZW"}
   ];
 }
+
+class Zones {
+  static List<Map<String, dynamic>> zones = [
+    {
+      "@id": "/api/v2/shop/zones/CENTRAL_AFRICA",
+      "@type": "Zone",
+      "name": "Afrique Centrale",
+      "members": ["/api/v2/admin/zone-members/CM"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/WORLD",
+      "@type": "Zone",
+      "name": "Reste du Monde",
+      "members": ["/api/v2/admin/zone-members/FR"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/zone-1",
+      "@type": "Zone",
+      "name": "Yaoundé 1",
+      "members": ["/api/v2/admin/zone-members/CM"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/dla",
+      "@type": "Zone",
+      "name": "Douala",
+      "members": ["/api/v2/admin/zone-members/CM-LT"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/ede",
+      "@type": "Zone",
+      "name": "Édéa",
+      "members": ["/api/v2/admin/zone-members/CM-LT"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/dla-bonapriso",
+      "@type": "Zone",
+      "name": "Bonapriso",
+      "members": ["/api/v2/admin/zone-members/dla"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/ede",
+      "@type": "Zone",
+      "name": "Quartier 1 edea",
+      "members": ["/api/v2/admin/zone-members/ede"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/yde",
+      "@type": "Zone",
+      "name": "Yaoundé",
+      "members": ["/api/v2/admin/zone-members/CM-CE"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/ese",
+      "@type": "Zone",
+      "name": "Éséka",
+      "members": ["/api/v2/admin/zone-members/CM-CE"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/yde-medong",
+      "@type": "Zone",
+      "name": "Mendong",
+      "members": ["/api/v2/admin/zone-members/yde"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/ouest",
+      "@type": "Zone",
+      "name": "Ouest",
+      "members": ["/api/v2/admin/zone-members/CM-OU"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/baf",
+      "@type": "Zone",
+      "name": "Bafoussam",
+      "members": ["/api/v2/admin/zone-members/ouest"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/dschang",
+      "@type": "Zone",
+      "name": "Dschang",
+      "members": ["/api/v2/admin/zone-members/ouest"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/dla-bali",
+      "@type": "Zone",
+      "name": "Bali",
+      "members": ["/api/v2/admin/zone-members/dla"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/dla-Bonamikengue",
+      "@type": "Zone",
+      "name": "Bonamikengue",
+      "members": ["/api/v2/admin/zone-members/dla"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/dla-Bessengue",
+      "@type": "Zone",
+      "name": "Bessengue",
+      "members": ["/api/v2/admin/zone-members/dla"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/dla-Bonadibong",
+      "@type": "Zone",
+      "name": "Bonadibong",
+      "members": ["/api/v2/admin/zone-members/dla"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/dla-Deido",
+      "@type": "Zone",
+      "name": "Deïdo",
+      "members": ["/api/v2/admin/zone-members/dla"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/dla-Bonanjo",
+      "@type": "Zone",
+      "name": "Bonanjo",
+      "members": ["/api/v2/admin/zone-members/dla"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/dla-Bonajinje",
+      "@type": "Zone",
+      "name": "Bonajinje",
+      "members": ["/api/v2/admin/zone-members/dla"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/dla-Bonateki",
+      "@type": "Zone",
+      "name": "Bonateki",
+      "members": ["/api/v2/admin/zone-members/dla"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/dla-Bonalembe",
+      "@type": "Zone",
+      "name": "Bonalembe",
+      "members": ["/api/v2/admin/zone-members/dla"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/dla-Bonantone",
+      "@type": "Zone",
+      "name": "Bonantone",
+      "members": ["/api/v2/admin/zone-members/dla"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/dla-Bonajang",
+      "@type": "Zone",
+      "name": "Bonajang",
+      "members": ["/api/v2/admin/zone-members/dla"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/dla-Hydrocarbures",
+      "@type": "Zone",
+      "name": "Hydrocarbures",
+      "members": ["/api/v2/admin/zone-members/dla"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/dla-Bonelang",
+      "@type": "Zone",
+      "name": "Bonelang",
+      "members": ["/api/v2/admin/zone-members/dla"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/dla-Joss",
+      "@type": "Zone",
+      "name": "Joss",
+      "members": ["/api/v2/admin/zone-members/dla"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/dla-Bonoleke",
+      "@type": "Zone",
+      "name": "Bonoleke",
+      "members": ["/api/v2/admin/zone-members/dla"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/dla-Koumassi",
+      "@type": "Zone",
+      "name": "Koumassi",
+      "members": ["/api/v2/admin/zone-members/dla"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/dla-Bonakeke-Akwa",
+      "@type": "Zone",
+      "name": "Bonakeke Akwa",
+      "members": ["/api/v2/admin/zone-members/dla"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/dla-Ngodi",
+      "@type": "Zone",
+      "name": "Ngodi",
+      "members": ["/api/v2/admin/zone-members/dla"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/dla-Grand-Moulin",
+      "@type": "Zone",
+      "name": "Grand Moulin",
+      "members": ["/api/v2/admin/zone-members/dla"]
+    },
+    {
+      "@id": "/api/v2/shop/zones/dla-Nkongmondo",
+      "@type": "Zone",
+      "name": "Nkongmondo",
+      "members": ["/api/v2/admin/zone-members/dla"]
+    }
+  ];
+}
+
+var provinceCode = [
+  {"code": "CM-LT", "name": "Littoral"},
+  {"code": "CM-CE", "name": "Centre"},
+  {"code": "CM-AD", "name": "Adamaoua"},
+  {"code": "CM-OU", "name": "Ouest"}
+];
